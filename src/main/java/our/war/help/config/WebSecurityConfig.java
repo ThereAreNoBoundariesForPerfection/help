@@ -1,0 +1,93 @@
+package our.war.help.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import our.war.help.model.ERole;
+import our.war.help.security.AuthEntryPointJwt;
+import our.war.help.security.AuthTokenFilter;
+import our.war.help.service.UserDetailsServiceImpl;
+
+@EnableWebSecurity
+@Configuration
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+    private final UserDetailsServiceImpl userDetailsService;
+    private final AuthEntryPointJwt unauthorizedHandler;
+
+    @Autowired
+    public WebSecurityConfig(UserDetailsServiceImpl userDetailsService, AuthEntryPointJwt unauthorizedHandler) {
+        this.userDetailsService = userDetailsService;
+        this.unauthorizedHandler = unauthorizedHandler;
+    }
+
+    @Bean
+    public AuthTokenFilter authenticationJwtTokenFilter() {
+        return new AuthTokenFilter();
+    }
+
+    @Override
+    public void configure(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
+        authenticationManagerBuilder.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
+    }
+
+    @Bean
+    @Override
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+
+        http.cors().and().csrf().disable()
+                .exceptionHandling().authenticationEntryPoint(unauthorizedHandler).and()
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
+                .authorizeRequests()
+                .antMatchers("/api/auth/**").permitAll()
+				.antMatchers("/api/test/**").permitAll()
+//                .antMatchers("/api/test/admin2").hasAnyRole(ERole.ROLE_ADMIN.name(), ERole.ROLE_USER.name())
+                .anyRequest().authenticated();
+
+        http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+
+//		http
+//		.authorizeRequests(authorizeRequests ->
+//				authorizeRequests
+//					.antMatchers("/api/auth/all").permitAll()
+//					.antMatchers("/api/auth/mod").hasRole(ERole.ROLE_MODERATOR.name())
+//					.antMatchers("/api/auth/admin").hasRole(ERole.ROLE_ADMIN.name())
+//						.antMatchers("/api/auth/admin2").hasRole(ERole.ROLE_ADMIN.name()))
+//
+//		.httpBasic().realmName("org team")
+//		.and()
+//		.sessionManagement()
+//		.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+//
+//		http.csrf().disable()
+//				.authorizeRequests()
+//				.antMatchers(HttpMethod.GET, "/api/auth/all").permitAll()
+//				.antMatchers("/api/auth/mod").hasRole(ERole.ROLE_MODERATOR.name())
+//				.antMatchers("/api/auth/admin").hasRole(ERole.ROLE_ADMIN.name())
+//				.antMatchers("/api/auth/admin2").hasRole(ERole.ROLE_ADMIN.name())
+//				.and().formLogin().loginPage("/home/login").permitAll().defaultSuccessUrl("/home/admin/cabinet")
+//				.and().formLogin().loginPage("/home/login").permitAll().defaultSuccessUrl("/home/cabinet");
+    }
+
+
+}
