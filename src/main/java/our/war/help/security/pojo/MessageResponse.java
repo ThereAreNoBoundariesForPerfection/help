@@ -1,7 +1,7 @@
 package our.war.help.security.pojo;
 
-import lombok.RequiredArgsConstructor;
-@RequiredArgsConstructor
+import lombok.Data;
+@Data
 public class MessageResponse {
     private final String message;
 }
