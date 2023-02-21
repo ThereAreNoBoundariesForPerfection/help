@@ -1,5 +1,7 @@
 package our.war.help.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -16,6 +18,7 @@ import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
 @RequestMapping("/api")
+@Api("controller witch show work swagger")
 public class SoldiersController {
     private final SoldierRepository soldierRepository;
 
@@ -25,7 +28,7 @@ public class SoldiersController {
     }
 
     @PostMapping("/soldiers")
-    // @ApiOperation("create new soldier")
+    @ApiOperation("create new soldier")
     public ResponseEntity<Void> newSoldier(@RequestBody Soldier soldier) {
         if (soldierRepository.findByEmail(soldier.getEmail()) == null) {
             soldierRepository.save(soldier);
@@ -35,7 +38,7 @@ public class SoldiersController {
     }
 
     @PutMapping("/soldiers/{id}")
-    //@ApiOperation("update soldier by id")
+    @ApiOperation("update soldier by id")
     public ResponseEntity<Void> updateSoldier(@RequestBody Soldier soldier, @PathVariable Long id) throws SoldierNotFoundException {
         if (soldier != null) {
             Optional<Soldier> anotherSoldier = soldierRepository.findById(id);
@@ -57,7 +60,7 @@ public class SoldiersController {
     }
 
     @GetMapping("/soldiers/{id}")
-    //@ApiOperation("get one soldier by id")
+    @ApiOperation("get one soldier by id")
     public Soldier getSoldierById(@PathVariable Long id) throws SoldierNotFoundException {
         Optional<Soldier> soldier = soldierRepository.findById(id);
         if (soldier.isPresent()) {
@@ -67,7 +70,7 @@ public class SoldiersController {
     }
 
     @DeleteMapping("/tasks/{id}")
-    //@ApiOperation("delete soldier by id")
+    @ApiOperation("delete soldier by id")
     public ResponseEntity<Void> deleteSoldierById(@PathVariable Long id) {
         soldierRepository.deleteById(id);
         return ok().build();
@@ -75,7 +78,7 @@ public class SoldiersController {
 
     @GetMapping("/soldiers")
     @PreAuthorize("hasRole('ADMIN')")
-    //@ApiOperation("get all soldiers")
+    @ApiOperation("get all soldiers")
     public List<Soldier> getAllSoldiers() throws SoldierNotFoundException {
         List<Soldier> soldiers = soldierRepository.findAll();
         if (!soldiers.isEmpty()) {

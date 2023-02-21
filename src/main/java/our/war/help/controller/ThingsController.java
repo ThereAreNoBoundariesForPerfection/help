@@ -1,5 +1,7 @@
 package our.war.help.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +18,7 @@ import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
 @RequestMapping("/api")
+@Api("controller witch show work swagger")
 public class ThingsController {
     private final ThingRepository thingRepository;
 
@@ -25,7 +28,7 @@ public class ThingsController {
     }
 
     @PostMapping("/things")
-    // @ApiOperation("create new thing")
+    @ApiOperation("create new thing")
     public ResponseEntity<Void> newThing(@RequestBody Thing thing) {
         if (thingRepository.findByName(thing.getName()) == null) {
             thingRepository.save(thing);
@@ -35,7 +38,7 @@ public class ThingsController {
     }
 
     @PutMapping("/things/{id}")
-    //@ApiOperation("update thing by id")
+    @ApiOperation("update thing by id")
     public ResponseEntity<Void> updateThing(@RequestBody Thing thing, @PathVariable Long id) throws ThingNotFoundException {
         if (thing != null) {
             Optional<Thing> anotherThing = thingRepository.findById(id);
@@ -55,7 +58,7 @@ public class ThingsController {
     }
 
     @GetMapping("/things/{id}")
-    //@ApiOperation("get one thing by id")
+    @ApiOperation("get one thing by id")
     public Thing getThingById(@PathVariable Long id) throws ThingNotFoundException {
         Optional<Thing> thing = thingRepository.findById(id);
         if (thing.isPresent()) {
@@ -65,14 +68,14 @@ public class ThingsController {
     }
 
     @DeleteMapping("/things/{id}")
-    //@ApiOperation("delete thing by id")
+    @ApiOperation("delete thing by id")
     public ResponseEntity<Void> deleteThingById(@PathVariable Long id) {
         thingRepository.deleteById(id);
         return ok().build();
     }
 
     @GetMapping("/things")
-    //@ApiOperation("get all things")
+    @ApiOperation("get all things")
     public List<Thing> getAllThings() throws ThingNotFoundException {
         List<Thing> soldiers = thingRepository.findAll();
         if (!soldiers.isEmpty()) {

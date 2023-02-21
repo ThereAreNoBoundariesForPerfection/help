@@ -1,5 +1,7 @@
 package our.war.help.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +19,7 @@ import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
 @RequestMapping("/api")
+@Api("controller witch show work swagger")
 public class PaymentsController {
     private final PaymentRepository paymentRepository;
     private final FormatterDateForDataBase formatterDateForDataBase;
@@ -28,7 +31,7 @@ public class PaymentsController {
     }
 
     @PostMapping("/payments")
-    // @ApiOperation("create new payments")
+    @ApiOperation("create new payments")
     public ResponseEntity<Void> newPayments(@RequestBody Payment payment) {
         payment.setDate(formatterDateForDataBase.formatterDefault(LocalDateTime.now()));
         paymentRepository.save(payment);
@@ -36,7 +39,7 @@ public class PaymentsController {
     }
 
     @GetMapping("/payments")
-    //@ApiOperation("get all payments")
+    @ApiOperation("get all payments")
     public List<Payment> getAllPayments() throws PaymentNotFoundException {
         List<Payment> payments = paymentRepository.findAll();
         if (!payments.isEmpty()) {
@@ -46,7 +49,7 @@ public class PaymentsController {
     }
 
     @GetMapping("/payments/{id}")
-    //@ApiOperation("get all payments by id")
+    @ApiOperation("get all payments by id")
     public List<Payment> getAllPaymentsById(@PathVariable Long id) throws PaymentNotFoundException {
         List<Payment> payments = paymentRepository.findAllById(Collections.singleton(id));
         if (!payments.isEmpty()) {
