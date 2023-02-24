@@ -39,18 +39,18 @@ public class ThingsController {
 
     @PutMapping("/things/{id}")
     @ApiOperation("update thing by id")
-    public ResponseEntity<Void> updateThing(@RequestBody Thing thing, @PathVariable Long id) throws ThingNotFoundException {
-        if (thing != null) {
-            Optional<Thing> anotherThing = thingRepository.findById(id);
-            if (anotherThing.isPresent()) {
+    public ResponseEntity<Void> updateThing(@RequestBody Thing newThing, @PathVariable Long id) throws ThingNotFoundException {
+        if (newThing != null) {
+            Optional<Thing> currentThing = thingRepository.findById(id);
+            if (currentThing.isPresent()) {
 
-                anotherThing.get().setName(thing.getName());
-                anotherThing.get().setQuantity(thing.getQuantity());
-                anotherThing.get().setNeedFunds(thing.getNeedFunds());
-                anotherThing.get().setCollectedFunds(thing.getCollectedFunds());
-                anotherThing.get().setDescription(thing.getDescription());
+                currentThing.get().setName(newThing.getName());
+                currentThing.get().setQuantity(newThing.getQuantity());
+                currentThing.get().setNeedFunds(newThing.getNeedFunds());
+                currentThing.get().setCollectedFunds(newThing.getCollectedFunds());
+                currentThing.get().setDescription(newThing.getDescription());
 
-                thingRepository.save(anotherThing.get());
+                thingRepository.save(currentThing.get());
                 return ok().build();
             }
         }

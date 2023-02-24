@@ -5,33 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/PaymentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/PaymentsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/SoldiersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/SoldiersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/SwaggerConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/ThingsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/ThingsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/our/war/help/controller/UserControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.controller.UsersControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.controller.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthTokenFilter.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/JwtUtils.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UsersController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.controller.UsersControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UsersController.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/controller/PaymentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/controller/PaymentsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/controller/SoldiersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/controller/SoldiersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/UsersControllerTest.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/controller/ThingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/controller/ThingsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/model/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,32 +63,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/acer/Документи/help&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e5267e27f1acc124e74b0fb94e6318a6&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/acer/Документи/help/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "e5267e27f1acc124e74b0fb94e6318a6"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -99,7 +99,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HelpApplication">
-    <configuration name="FormatterDateForDataBaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SoldiersControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="DATABASE_URL" value="jdbc:postgresql://localhost:5432/help" />
+            <entry key="PGPASSWORD" value="2222222222" />
+            <entry key="PGUSER" value="postgres" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="passParentEnvs" value="false" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;our.war.help.controller.SoldiersControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SoldiersControllerTest.newSoldier" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;our.war.help.config.FormatterDateForDataBaseTest&quot;" />
+            <option value="&quot;our.war.help.controller.SoldiersControllerTest.newSoldier&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,42 +199,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UsersControllerTest.registerUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;our.war.help.controller.UsersControllerTest.registerUser&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HelpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="HelpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
       <module name="help.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="our.war.help.HelpApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.SoldiersControllerTest" />
+      <item itemvalue="Gradle.SoldiersControllerTest.newSoldier" />
+      <item itemvalue="Gradle.UserControllerTest" />
+      <item itemvalue="Gradle.UsersControllerTest" />
+      <item itemvalue="Spring Boot.HelpApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.HelpApplication" />
+        <item itemvalue="Gradle.SoldiersControllerTest" />
+        <item itemvalue="Gradle.SoldiersControllerTest.newSoldier" />
         <item itemvalue="Gradle.UsersControllerTest" />
         <item itemvalue="Gradle.UserControllerTest" />
-        <item itemvalue="Gradle.UsersControllerTest.registerUser" />
-        <item itemvalue="Gradle.FormatterDateForDataBaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +238,9 @@
       <workItem from="1676740187267" duration="1835000" />
       <workItem from="1676803583709" duration="18145000" />
       <workItem from="1676884758766" duration="8692000" />
-      <workItem from="1676964604436" duration="624000" />
+      <workItem from="1676964604436" duration="7983000" />
+      <workItem from="1677162615942" duration="6173000" />
+      <workItem from="1677232987603" duration="10682000" />
     </task>
     <servers />
   </component>

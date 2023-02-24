@@ -16,9 +16,10 @@ public class Payment {
     private BigDecimal sum;
     @Column(name = "date")
     private String date;
-    @Column(name = "for_whom")
-    private String forWhom;
     @ManyToOne(cascade = CascadeType.ALL)
-    //@Column(name = "user_id")
+    private Thing thing = null;
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Soldier soldier = null;
+    @ManyToOne(cascade = CascadeType.ALL)
     private User user;
 }
