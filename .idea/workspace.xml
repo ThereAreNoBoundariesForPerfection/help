@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/model/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/model/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,9 +73,9 @@
     <configuration name="HelpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <envs>
+        <env name="DATABASE_URL" value="jdbc:postgresql://localhost:5432/help2" />
         <env name="PGPASSWORD" value="2222222222" />
         <env name="PGUSER" value="postgres" />
-        <env name="DATABASE_URL" value="jdbc:postgresql://localhost:5432/help" />
       </envs>
       <module name="help.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="our.war.help.HelpApplication" />
@@ -117,6 +110,7 @@
       <workItem from="1677232987603" duration="11595000" />
       <workItem from="1677330162216" duration="13654000" />
       <workItem from="1677405970070" duration="9507000" />
+      <workItem from="1677489062419" duration="611000" />
     </task>
     <servers />
   </component>
