@@ -28,6 +28,6 @@ public class Soldier {
     private BigDecimal needFunds;
     @Column(name = "collected_funds")
     private BigDecimal collectedFunds;
-    @Column(name = "description_damage_heaith")
+    @Column(name = "description_damage_health")
     private String descriptionDamageHealth;
 }
