@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="our.war.help.config.FormatterDateForDataBaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-28T11:24:59" hostname="acer-Aspire-V3-574G" time="0.044">
+  <properties/>
+  <testcase name="formatterDefault()" classname="our.war.help.config.FormatterDateForDataBaseTest" time="0.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
