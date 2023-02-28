@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.005s</div>
+<div class="counter">0.002s</div>
 <p>duration</p>
 </div>
 </td>
@@ -345,7 +345,7 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
 </thead>
 <tr>
 <td class="failures">authUser()</td>
-<td class="failures">0.004s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -358,12 +358,12 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2023-02-28 13:24:57.876  INFO 14738 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [our.war.help.controller.UsersControllerTest], using SpringBootContextLoader
-2023-02-28 13:24:57.877  INFO 14738 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [our.war.help.controller.UsersControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2023-02-28 13:24:57.878  INFO 14738 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [our.war.help.controller.UsersControllerTest]: UsersControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-02-28 13:24:57.917  INFO 14738 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration our.war.help.HelpApplication for test class our.war.help.controller.UsersControllerTest
-2023-02-28 13:24:57.921  INFO 14738 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2023-02-28 13:24:57.938  INFO 14738 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e39e0fb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@260d48f5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@148ab138, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f106af8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1edf71d9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52d9d817, org.springframework.test.context.transaction.TransactionalTestExecutionListener@131ba005, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7f305f34, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1a84a8b2, org.springframework.test.context.event.EventPublishingTestExecutionListener@601d295, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@485451d8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@35e07e19, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@a1e912f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2036f83, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68b3248a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5e158f33, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@20fcea37]
+<pre>2023-02-28 17:34:23.314  INFO 23494 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [our.war.help.controller.UsersControllerTest], using SpringBootContextLoader
+2023-02-28 17:34:23.316  INFO 23494 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [our.war.help.controller.UsersControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-28 17:34:23.316  INFO 23494 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [our.war.help.controller.UsersControllerTest]: UsersControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-28 17:34:23.340  INFO 23494 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration our.war.help.HelpApplication for test class our.war.help.controller.UsersControllerTest
+2023-02-28 17:34:23.343  INFO 23494 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-28 17:34:23.346  INFO 23494 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@34beadce, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@382d549a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2eb6d34a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d73e8c4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ce2e079, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e39e0fb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@260d48f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@148ab138, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6f106af8, org.springframework.test.context.event.EventPublishingTestExecutionListener@1edf71d9, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@52d9d817, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@131ba005, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f305f34, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a84a8b2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@601d295, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@485451d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@35e07e19]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -373,19 +373,19 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.0)
 
-2023-02-28 13:24:58.027  INFO 14738 --- [    Test worker] o.w.help.controller.UsersControllerTest  : Starting UsersControllerTest using Java 11.0.17 on acer-Aspire-V3-574G with PID 14738 (started by acer in /home/acer/Документи/help)
-2023-02-28 13:24:58.028  INFO 14738 --- [    Test worker] o.w.help.controller.UsersControllerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-02-28 13:24:58.643  INFO 14738 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-02-28 13:24:58.672  INFO 14738 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
-2023-02-28 13:24:59.002  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.11 by Redgate
-2023-02-28 13:24:59.002  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.11
-2023-02-28 13:24:59.002  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
-2023-02-28 13:24:59.004  INFO 14738 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2023-02-28 13:24:59.005  WARN 14738 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
-2023-02-28 13:24:59.013  INFO 14738 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
+2023-02-28 17:34:23.408  INFO 23494 --- [    Test worker] o.w.help.controller.UsersControllerTest  : Starting UsersControllerTest using Java 11.0.17 on acer-Aspire-V3-574G with PID 23494 (started by acer in /home/acer/Документи/help)
+2023-02-28 17:34:23.409  INFO 23494 --- [    Test worker] o.w.help.controller.UsersControllerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-02-28 17:34:23.930  INFO 23494 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 17:34:23.950  INFO 23494 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2023-02-28 17:34:24.228  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.11 by Redgate
+2023-02-28 17:34:24.229  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.11
+2023-02-28 17:34:24.229  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
+2023-02-28 17:34:24.231  INFO 23494 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-28 17:34:24.232  WARN 23494 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
+2023-02-28 17:34:24.239  INFO 23494 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-02-28 13:24:59.024 ERROR 14738 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
+2023-02-28 17:34:24.248 ERROR 23494 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.20.jar:5.3.20]
@@ -508,7 +508,7 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
 	... 104 common frames omitted
 
-2023-02-28 13:24:59.038 ERROR 14738 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@3e39e0fb] to prepare test instance [our.war.help.controller.UsersControllerTest@31e22365]
+2023-02-28 17:34:24.261 ERROR 23494 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@34beadce] to prepare test instance [our.war.help.controller.UsersControllerTest@452ec287]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
@@ -643,19 +643,19 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.0)
 
-2023-02-28 13:24:59.110  INFO 14738 --- [    Test worker] o.w.help.controller.UsersControllerTest  : Starting UsersControllerTest using Java 11.0.17 on acer-Aspire-V3-574G with PID 14738 (started by acer in /home/acer/Документи/help)
-2023-02-28 13:24:59.110  INFO 14738 --- [    Test worker] o.w.help.controller.UsersControllerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-02-28 13:24:59.533  INFO 14738 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-02-28 13:24:59.559  INFO 14738 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
-2023-02-28 13:24:59.760  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.11 by Redgate
-2023-02-28 13:24:59.760  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.11
-2023-02-28 13:24:59.761  INFO 14738 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
-2023-02-28 13:24:59.763  INFO 14738 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2023-02-28 13:24:59.764  WARN 14738 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
-2023-02-28 13:24:59.768  INFO 14738 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
+2023-02-28 17:34:24.335  INFO 23494 --- [    Test worker] o.w.help.controller.UsersControllerTest  : Starting UsersControllerTest using Java 11.0.17 on acer-Aspire-V3-574G with PID 23494 (started by acer in /home/acer/Документи/help)
+2023-02-28 17:34:24.337  INFO 23494 --- [    Test worker] o.w.help.controller.UsersControllerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-02-28 17:34:24.736  INFO 23494 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 17:34:24.762  INFO 23494 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
+2023-02-28 17:34:25.033  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.11 by Redgate
+2023-02-28 17:34:25.033  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.11
+2023-02-28 17:34:25.033  INFO 23494 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
+2023-02-28 17:34:25.035  INFO 23494 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-28 17:34:25.036  WARN 23494 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
+2023-02-28 17:34:25.039  INFO 23494 --- [    Test worker] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-02-28 13:24:59.775 ERROR 14738 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
+2023-02-28 17:34:25.048 ERROR 23494 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.RuntimeException: Driver org.postgresql.Driver claims to not accept jdbcUrl, ${DATABASE_URL}
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.20.jar:5.3.20]
@@ -778,7 +778,7 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
 	... 104 common frames omitted
 
-2023-02-28 13:24:59.784 ERROR 14738 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@3e39e0fb] to prepare test instance [our.war.help.controller.UsersControllerTest@4301fa39]
+2023-02-28 17:34:25.058 ERROR 23494 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@34beadce] to prepare test instance [our.war.help.controller.UsersControllerTest@73dd0f23]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
@@ -915,7 +915,7 @@ Caused by: java.lang.RuntimeException: Driver org.postgresql.Driver claims to no
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.6</a> at 28 лют. 2023 р., 13:25:00</p>
+<a href="http://www.gradle.org">Gradle 7.6</a> at 28 лют. 2023 р., 17:34:25</p>
 </div>
 </div>
 </body>
