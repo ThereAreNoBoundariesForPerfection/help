@@ -19,5 +19,5 @@ spring:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
 
-app:
-  jwtSecret: MegaLargeSigningSecretKeyForDemoApplicationMegaLargeSigningSecretKeyForDemoApplication
+#app:
+# jwtSecret: MegaLargeSigningSecretKeyForDemoApplicationMegaLargeSigningSecretKeyForDemoApplication
