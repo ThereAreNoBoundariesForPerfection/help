@@ -4,7 +4,88 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="" />
+    <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/HelpApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/CurrentUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/FormatterDateForDataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/PaymentsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/SoldiersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/ThingsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/ErrorDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/PaymentNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/SoldierAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/SoldierNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/ThingAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/ThingNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/UserAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/exception/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/ERole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Soldier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/Thing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/repository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/repository/SoldierRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/repository/ThingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthEntryPointJwt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/pojo/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/pojo/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/pojo/MessageResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/pojo/SignupRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/pojo/ThingDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/service/UserDetailsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/service/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/our/war/help/HelpApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/our/war/help/config/FormatterDateForDataBaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/our/war/help/controller/UsersControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/help-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.HelpApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.config.FormatterDateForDataBaseTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.controller.UsersControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V1__create__teble__users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V2__create__table__roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V3__create__table__users_roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V4__create__table__things.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V5__create__table__soldiers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/db/migration/V6__create__table__payments.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.HelpApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.config.FormatterDateForDataBaseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.controller.UsersControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/our/war/help/controller/SoldiersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/our/war/help/controller/SoldiersControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +181,7 @@
       <recent name="our.war.help.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.help [build]">
+  <component name="RunManager" selected="Spring Boot.HelpApplication">
     <configuration name="help [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -113,6 +194,48 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="help [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="help [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,12 +275,16 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Gradle.help [clean]" />
+      <item itemvalue="Gradle.help [jar]" />
       <item itemvalue="Gradle.help [build]" />
       <item itemvalue="Spring Boot.HelpApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.help [clean]" />
         <item itemvalue="Gradle.help [build]" />
+        <item itemvalue="Gradle.help [jar]" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
@@ -183,7 +310,7 @@
       <workItem from="1677405970070" duration="9507000" />
       <workItem from="1677489062419" duration="10350000" />
       <workItem from="1677577910570" duration="9743000" />
-      <workItem from="1677686421641" duration="53000" />
+      <workItem from="1677686421641" duration="1405000" />
     </task>
     <servers />
   </component>
