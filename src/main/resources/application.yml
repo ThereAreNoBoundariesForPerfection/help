@@ -23,4 +23,3 @@ server:
   port: 8080
 app:
   jwtSecret: ${KEY}
-#  jwtSecret: MegaLargeSigningSecretKeyForDemoApplicationMegaLargeSigningSecretKeyForDemoApplication
