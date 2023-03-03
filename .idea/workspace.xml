@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +222,7 @@
         <env name="PGPASSWORD" value="2222222222" />
         <env name="PGUSER" value="postgres" />
         <env name="PORT" value="8080" />
+        <env name="PARAM" value="ANT_PATH_MATCHER" />
       </envs>
       <module name="help.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="our.war.help.HelpApplication" />
@@ -279,7 +279,7 @@
       <workItem from="1677686421641" duration="2912000" />
       <workItem from="1677758802081" duration="1714000" />
       <workItem from="1677761472830" duration="10195000" />
-      <workItem from="1677841929214" duration="5456000" />
+      <workItem from="1677841929214" duration="6057000" />
     </task>
     <servers />
   </component>
