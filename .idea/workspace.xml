@@ -103,7 +103,7 @@
       <recent name="our.war.help.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelpApplication">
+  <component name="RunManager" selected="Gradle.help [build]">
     <configuration name="FormatterDateForDataBaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -278,7 +278,7 @@
       <workItem from="1677686421641" duration="2912000" />
       <workItem from="1677758802081" duration="1714000" />
       <workItem from="1677761472830" duration="10195000" />
-      <workItem from="1677841929214" duration="2264000" />
+      <workItem from="1677841929214" duration="3025000" />
     </task>
     <servers />
   </component>
