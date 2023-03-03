@@ -20,6 +20,6 @@ spring:
       matching-strategy: ANT_PATH_MATCHER
 
 server:
-  port: 8080
+  port: ${PORT}
 app:
   jwtSecret: ${KEY}
