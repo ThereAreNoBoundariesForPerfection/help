@@ -19,7 +19,7 @@ spring:
     pathmatch:
       matching-strategy: ${PARAM}
 
-server:
-  port: ${PORT}
+#server:
+#  port: ${PORT}
 app:
   jwtSecret: ${KEY}
