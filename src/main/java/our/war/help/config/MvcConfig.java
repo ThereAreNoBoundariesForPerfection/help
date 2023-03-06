@@ -9,7 +9,9 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("classpath:/resources/**")
-                .addResourceLocations("classpath:/resources/**");
+        registry.addResourceHandler("/static/**", "/img/**")
+                .addResourceLocations("classpath:/static/css/", "classpath:/static/js")
+                .addResourceLocations("classpath:/img/", "classpath:/db/migration")
+                .addResourceLocations("/resources/", "/resources/**");
     }
 }

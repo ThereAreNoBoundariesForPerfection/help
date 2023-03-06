@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/help-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/help-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/help-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/help-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.config.FormatterDateForDataBaseTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/our.war.help.config.FormatterDateForDataBaseTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.config.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/our.war.help.config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.config.FormatterDateForDataBaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-our.war.help.config.FormatterDateForDataBaseTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/config/MvcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <recent name="our.war.help.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.help [build]">
+  <component name="RunManager" selected="Spring Boot.HelpApplication">
     <configuration name="FormatterDateForDataBaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -291,7 +291,7 @@
       <workItem from="1677761472830" duration="10195000" />
       <workItem from="1677841929214" duration="6857000" />
       <workItem from="1677942523035" duration="5183000" />
-      <workItem from="1678093102310" duration="3294000" />
+      <workItem from="1678093102310" duration="4208000" />
     </task>
     <servers />
   </component>
