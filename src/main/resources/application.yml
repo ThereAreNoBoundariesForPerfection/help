@@ -21,5 +21,8 @@ spring:
 
 #server:
 #  port: ${PORT}
+
+server:
+  port: 8081
 app:
   jwtSecret: ${KEY}
