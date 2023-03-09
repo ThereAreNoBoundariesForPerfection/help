@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb21b23-970c-4ab7-989c-0efada95c148" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/CurrentUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/CurrentUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthEntryPointJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthEntryPointJwt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/security/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/our/war/help/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/our/war/help/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/config/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/config/CurrentUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/security/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/security/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/security/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/security/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/security/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/our/war/help/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/our/war/help/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +303,7 @@
       <workItem from="1678120189950" duration="2416000" />
       <workItem from="1678177825766" duration="5192000" />
       <workItem from="1678297377159" duration="3596000" />
-      <workItem from="1678347559330" duration="4537000" />
+      <workItem from="1678347559330" duration="6749000" />
     </task>
     <servers />
   </component>

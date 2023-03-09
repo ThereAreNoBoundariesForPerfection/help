@@ -4,7 +4,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
+//import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import our.war.help.exception.SoldierAlreadyExistsException;
 import our.war.help.exception.SoldierNotFoundException;
@@ -77,7 +77,7 @@ public class SoldiersController {
     }
 
     @GetMapping("/soldiers")
-    @PreAuthorize("hasRole('ADMIN')")
+//    @PreAuthorize("hasRole('ADMIN')")
     @ApiOperation("get all soldiers")
     public List<Soldier> getAllSoldiers() throws SoldierNotFoundException {
         List<Soldier> soldiers = soldierRepository.findAll();
